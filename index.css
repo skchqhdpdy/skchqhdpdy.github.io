@@ -56,7 +56,7 @@ body{
     margin-top: -40px;
 }
 
-#todolist input{
+#inputtodolist input{
     text-align: center;
 
     border:0;
@@ -72,10 +72,10 @@ body{
     transition: 0.25s;
     cursor: pointer;
 }
-#todolist input::placeholder{
+#inputtodolist input::placeholder{
     color: white;
 }
-#todolist button{
+#inputtodolist button{
     border:0;
     background: none;
     display: block;
@@ -89,7 +89,8 @@ body{
     transition: 0.25s;
     cursor: pointer;
 }
-#todolist button:hover{
+#inputtodolist button:hover{
     background: #2ecc71;
 }
+
 
