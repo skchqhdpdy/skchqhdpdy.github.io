@@ -1,7 +1,6 @@
 const getUserName = document.querySelector("#username input");
 const form = document.querySelector("#username");
 const sayHello = document.querySelector("#sayhello");
-form.style.placeholderColor = "yellow";
 
 function loginBtnClick(event) {
     event.preventDefault();

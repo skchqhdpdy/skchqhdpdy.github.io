@@ -6,4 +6,4 @@ function todolistBtnClick(event) {
 
 }
 
-todo.addEventListener("submit", todolistBtnClick)
+todo.addEventListener("submit", todolistBtnClick);
