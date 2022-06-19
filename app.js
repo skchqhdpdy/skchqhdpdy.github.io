@@ -29,6 +29,10 @@
 }
 export default colorChange; */
 
+const link = "https://aodd.moe/nomadcoders/바닐라%20js";
+alert(`만약 github.io페이지에서 버튼 등 미완성 처럼 보이면 \n${link} \n이쪽으로 이동해주세요. 콘솔에 링크 남길예정`);
+console.log(link);
+
 const btn = document.querySelector("#x");
 
 function btnClick() {
