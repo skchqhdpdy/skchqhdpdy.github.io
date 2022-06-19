@@ -1,13 +1,43 @@
 body{
     
 }
+.body0{
+    width: 100%;
+    height: 0;
+    padding-top: calc(1080 / 1920 * 100%);
+    background: url(./img/win-10-dark.jpg) center center / cover;
+}
+.body1{
+    width: 100%;
+    height: 0;
+    padding-top: calc(1080 / 1920 * 100%);
+    background: url(./img/win-10-purple.jpg) center center / cover;
+}
+.body2{
+    width: 100%;
+    height: 0;
+    padding-top: calc(1080 / 1920 * 100%);
+    background: url(./img/win-10-red.jpg) center center / cover;
+}
+.body3{
+    width: 100%;
+    height: 0;
+    padding-top: calc(1080 / 1920 * 100%);
+    background: url(./img/win-10.jpg) center center / cover;
+}
+.body4{
+    width: 100%;
+    height: 0;
+    padding-top: calc(1080 / 1920 * 100%);
+    background: url(./img/win-xp.jpg) center center / cover;
+}
 .hiddne{
     display: none;
 }
 #clock{
     font-size: 50px;
     text-align: center;
-    margin-top: 180px auto;
+    margin-top: -820px;
 
 }
 #username input{
@@ -26,8 +56,20 @@ body{
     transition: 0.25s;
     cursor: pointer;
 }
-#username input::placeholder{
-    color: white;
+.phcolor1 input::placeholder{
+    color: #C0C0C0;
+}
+.phcolor2 input::placeholder{
+    color: yellow;
+}
+.phcolor3 input::placeholder{
+    color: aqua;
+}
+.phcolor4 input::placeholder{
+    color: #ff7f00;
+}
+.phcolor5 input::placeholder{
+    color: violet;
 }
 #username button{
     border:0;
@@ -50,7 +92,7 @@ body{
     text-align: center;
     color: mintcream;
     font-size: 40px;
-    margin-top: -40px;
+    margin-top: -10px;
 }
 
 #inputtodolist input{
@@ -94,3 +136,20 @@ body{
     font-size: 50px;
 }
 
+.todolistclear{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 10px 20px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.todolistclear:hover{
+    background: #2ecc71;
+}

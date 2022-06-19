@@ -3,8 +3,8 @@ const bgImg=["win-10-dark.jpg", "win-10-purple.jpg", "win-10-red.jpg", "win-10.j
 const bg = document.querySelector("body")
 const randomNum = Math.round(Math.random() * 4);
 
-bg.background = `./img/${bgImg[randomNum]}`;
-bg.style.backgroundSize = "cover";
+bg.classList.add(`body${randomNum}`)
+
 console.log(`Background Image = ${bgImg[randomNum]}`)
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

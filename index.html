@@ -12,7 +12,16 @@
   <div id="clock">
     <h1>00:00:00</h1>
   </div>
-
+  
+  <div style="text-align: center; margin-top: 50px;" id="weather" class="">
+    <h1 style="margin-top: -60px;">
+      <!-- city -->
+    </h1>
+    <h1 style="margin-top: -22px;">
+      <!-- weather -->
+    </h1>
+  </div>
+  
   <div id="sayhello" class="hiddne">
     <h1>Hello! ${username}!</h1>
   </div>
@@ -27,11 +36,19 @@
     <button>submit!</button>
   </form>
 
+  <button style="color: red;" class="todolistclear">All clear</button>
+
+  <div>
+    <img id="x" style="width: 36px; height: 36px; margin-left: 57%; margin-bottom: -6%;" src="./img/x.png">
+  </div>
+
   <!-- <script type="module" src="./app.js"></script> -->
+  <script src="./app.js"></script>
   <script src="./background.js"></script>
   <script src="./clock.js"></script>
   <script src="./login.js"></script>
   <script src="./todolist.js"></script>
+  <script src="./weather.js"></script>
 
 </body>
 </html>
