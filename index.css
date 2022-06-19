@@ -1,0 +1,45 @@
+body{
+    
+}
+#clock{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 180px auto;
+
+}
+#username input{
+    text-align: center;
+
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#username input::placeholder{
+    color: white;
+}
+#username button{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 10px 20px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#username button:hover{
+    background: #2ecc71;
+}

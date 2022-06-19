@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Vanilla Challenge</title>
-    <meta charset="UTF-8" />
-  </head>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  
+  <div id="clock">
+    <h1>00:00:00</h1>
+  </div>
 
-  <body>
-    <h1>Random Number Game</h1>
-    <form>
-      <label for="">Generate a number between 0 and </label>
-      <input id="inputMaxNum" type="text" />
-      <br />
-      <br />
-      <label for="">Guess the number</label>
-      <input id="inputChooseNum" type="text" />
-      <button>Play!</button>
-    </form>
+  <form id="username">
+    <input placeholder="Write To Do List!" type="text">
+    <button>submit!</button>
+  </form>
 
-    <div id="result">
-      <p>You Choose: ?, the machine choose: ?.</p>
-      <h1>You Win or Lost</h1>
-    </div>
-    <script src="./app.js"></script>
-  </body>
+  <script src="./background.js"></script>
+  <script src="./clock.js"></script>
+  <script src="./app.js"></script>
+
+</body>
 </html>
