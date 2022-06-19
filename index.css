@@ -1,6 +1,9 @@
 body{
     
 }
+.hiddne{
+    display: none;
+}
 #clock{
     font-size: 50px;
     text-align: center;
@@ -26,6 +29,9 @@ body{
 #username input::placeholder{
     color: white;
 }
+.test input::placeholder{
+    color: red;
+}
 #username button{
     border:0;
     background: none;
@@ -43,3 +49,47 @@ body{
 #username button:hover{
     background: #2ecc71;
 }
+#sayhello{
+    text-align: center;
+    color: mintcream;
+    font-size: 40px;
+    margin-top: -40px;
+}
+
+#todolist input{
+    text-align: center;
+
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#todolist input::placeholder{
+    color: white;
+}
+#todolist button{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 10px 20px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#todolist button:hover{
+    background: #2ecc71;
+}
+
