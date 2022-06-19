@@ -29,9 +29,6 @@ body{
 #username input::placeholder{
     color: white;
 }
-.test input::placeholder{
-    color: red;
-}
 #username button{
     border:0;
     background: none;
@@ -92,5 +89,8 @@ body{
 #inputtodolist button:hover{
     background: #2ecc71;
 }
-
+.showtodolist{
+    text-align: center;
+    font-size: 50px;
+}
 
